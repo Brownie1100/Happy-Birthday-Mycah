@@ -1,0 +1,56 @@
+body {
+    font-family: "Dancing Script", cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* Light Gray */
+    color: #333;
+    background-image: url('https://images.pexels.com/photos/1154610/pexels-photo-1154610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); 
+    background-size: 100%; 
+    background-repeat: no-repeat;
+}
+
+header {
+ /*   background-color: #ffc0cb; /* Light Pink */
+    text-align: center;
+    padding: 20px;
+    font-family: "Dancing Script", cursive;
+    font-size: 2em;
+}
+
+h1 {
+    margin: 50;
+    font-size: 2em;
+    color: #d0407f;
+    font-family: "Dancing Script", cursive;
+}
+
+main {
+    margin: 20px;
+    font-family: "Dancing Script", cursive;
+}
+
+.welcome-section, .content-section {
+    background-color: #4a8b96; /* White */
+    padding: 20px;
+    border-radius: 80px;
+    box-shadow: 0 0 10px rgba(148, 23, 23, 0.448);
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #ff69b4; /* Medium Pink */
+    font-family: "Dancing Script", cursive;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffc0cb;
+    font-family: "Dancing Script", cursive;
+}
+p{
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-size: 2em;
+
+}
