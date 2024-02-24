@@ -2,26 +2,31 @@ body {
     font-family: "Dancing Script", cursive;
     margin: 0;
     padding: 0;
+ /*   display: flex; */
     background-color: #f8f8f8; /* Light Gray */
     color: #333;
-    background-image: url('https://images.pexels.com/photos/1154610/pexels-photo-1154610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); 
-    background-size: 100%; 
+    background-image: url('https://images.pexels.com/photos/1146706/pexels-photo-1146706.jpeg'); 
+    background-size: 250%; 
     background-repeat: no-repeat;
+    background-color:white;
 }
 
 header {
  /*   background-color: #ffc0cb; /* Light Pink */
+    position: absolute;
+    top:0;
     text-align: center;
     padding: 20px;
-    font-family: "Dancing Script", cursive;
+   /* font-family: "Dancing Script", cursive; */
     font-size: 2em;
 }
 
 h1 {
     margin: 50;
-    font-size: 2em;
+    font-size: 3em;
+    font-weight: 600;
     color: #d0407f;
-    font-family: "Dancing Script", cursive;
+/*    font-family: "Dancing Script", cursive; */
 }
 
 main {
@@ -30,13 +35,18 @@ main {
 }
 
 .welcome-section, .content-section {
-    background-color: #4a8b96; /* White */
+ /*   background-color: #4a8b96; /* White */
     padding: 20px;
     border-radius: 80px;
-    box-shadow: 0 0 10px rgba(148, 23, 23, 0.448);
+    box-shadow: 0 0 10px rgba(110, 17, 17, 0.448);
     margin-bottom: 20px;
+    position:relative;
 }
-
+.welcome-section{
+    margin-top: 400px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
 h2 {
     color: #ff69b4; /* Medium Pink */
     font-family: "Dancing Script", cursive;
@@ -44,9 +54,15 @@ h2 {
 
 footer {
     text-align: center;
+    color: rgba(175, 17, 130, 0.415);
     padding: 10px;
-    background-color: #ffc0cb;
+   /* background-color: #ffc0cb; */
     font-family: "Dancing Script", cursive;
+    font-size: 1.5em;
+    font-weight:750;
+    position:absolute; 
+    left:60px;
+    bottom: 100px;
 }
 p{
     text-align: center;
