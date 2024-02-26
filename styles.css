@@ -6,11 +6,15 @@ body {
     background-color: #f8f8f8; /* Light Gray */
     color: #333;
     background-image: url('https://images.pexels.com/photos/1146706/pexels-photo-1146706.jpeg'); 
-    background-size: 100% 100%; 
+    background-size: 250%; 
     background-repeat: no-repeat;
     background-color:white;
 }  
-
+@media (max-width: 768px) {
+    body {
+        background-size: cover; /* Adjust for smaller screens */
+    }
+}
 header {
  /*   background-color: #ffc0cb; /* Light Pink */
     position: absolute;
