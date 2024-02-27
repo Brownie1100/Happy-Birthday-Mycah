@@ -1,11 +1,11 @@
-var element = document.getElementById('myElement');
-element.style.display='none';
+var elementc = document.getElementById('comtent-section');
+elementc.style.display='none';
 
 function Clickbutton() {
     event.preventDefault();
  //   alert('Text Clicked!'); // Replace with your desired functionality
   //  document.getElementById("message").style.display="block";
-    var element = document.getElementById('myElement');
+    var element = document.getElementById('comtent-section');
     if(element.style.display==="none"||element.style.display===""){
         element.style.display='block';
     }
