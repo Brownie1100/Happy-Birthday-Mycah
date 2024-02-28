@@ -1,4 +1,4 @@
-var elementc = document.getElementById('comtent-section');
+var elementc = document.getElementById('content-section');
 elementc.style.display='none';
 
 function Clickbutton() {
