@@ -92,7 +92,7 @@ p{
     z-index: 1000;
 }
 .img1{
-    width:500;
+    width:auto;
     height:auto;
     float:left;
     bottom:0;
@@ -100,7 +100,7 @@ p{
     position:fixed;
 }
 .img2{
-    width: 500;
+    width: auto;
     height:auto;
     float: right;
     bottom:0;
