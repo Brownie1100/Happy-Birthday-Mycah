@@ -4,15 +4,16 @@ body {
     padding: 0;
  /*   display: flex; */
     background-color: #f8f8f8; /* Light Gray */
-    color: #333;
-    background-image: url('https://images.pexels.com/photos/1146706/pexels-photo-1146706.jpeg'); 
-    background-size: 250%; 
+    color: #f9efef;
+ /*   background-image: url('https://images.pexels.com/photos/1146706/pexels-photo-1146706.jpeg'); */
+    background-image: url('https://i.imgur.com/TcMZZFM.jpg');
+    background-size: 125%; 
     background-repeat: no-repeat;
     background-color:white;
 }  
 header {
  /*   background-color: #ffc0cb; /* Light Pink */
-    position: absolute;
+    position: absolute,center;
     top:0;
     left: 200;
     text-align:center;
@@ -25,7 +26,7 @@ h1 {
     margin: 50;
     font-size: 3em;
     font-weight: 600;
-    color: #d0407f;
+    color: #C0C0C0;
 /*    font-family: "Dancing Script", cursive; */
 }
 
@@ -37,32 +38,41 @@ main {
 .welcome-section, .content-section {
  /*   background-color: #4a8b96; /* White */
     padding: 20px;
-    border-radius: 80px;
-    box-shadow: 0 0 10px rgba(110, 17, 17, 0.448);
+    border-radius: 120px;
+    color: #C0C0C0;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
     margin-bottom: 20px;
     position:relative;
+/*    font: 2em; */
 }
 .welcome-section{
     margin-top: 400px;
-    font-size: 1.5em;
+    font-size: 1.75em;
     font-weight: bold;
 }
+.content-section{
+    font-size:1.5em;
+}
 h2 {
-    color: #ff69b4; /* Medium Pink */
+    color: #C0C0C0; /* Medium Pink */
     font-family: "Dancing Script", cursive;
 }
 
 footer {
     text-align: center;
-    color: rgba(175, 17, 130, 0.415);
+    color: rgb(255, 255, 255);
     padding: 10px;
    /* background-color: #ffc0cb; */
     font-family: "Dancing Script", cursive;
     font-size: 1.5em;
     font-weight:750;
     position:absolute; 
-    left:0px;
-    bottom: 200px;
+    /* left:0px;
+    bottom: 200px; */
+    float: bottom,center;
+    bottom:0;
+    left:45%;
+    right:45%;
 }
 p{
     text-align: center;
@@ -80,4 +90,20 @@ p{
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     z-index: 1000;
+}
+.img1{
+    width:500;
+    height:auto;
+    float:left;
+    bottom:0;
+    left:0;
+    position:fixed;
+}
+.img2{
+    width: 500;
+    height:auto;
+    float: right;
+    bottom:0;
+    right:0;
+    position:fixed;
 }
