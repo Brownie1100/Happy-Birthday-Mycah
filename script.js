@@ -3,16 +3,18 @@ elementc.style.display='none';
 
 function Clickbutton() {
     event.preventDefault();
- //   alert('Text Clicked!'); // Replace with your desired functionality
-  //  document.getElementById("message").style.display="block";
     var element = document.getElementById('content-section');
+    var element2=document.getElementById("welcome-section-message");
     if(element.style.display==="none"||element.style.display===""){
         element.style.display='block';
+        element2.style.display="none";
     }
     else{
         element.style.display='none';
+        element2.style.display="block";
     }
 }
-function close(){
-    document.getElementById("message").style.display="none";
+
+function Clickfooter(){
+
 }
