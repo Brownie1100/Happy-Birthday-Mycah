@@ -12,7 +12,21 @@ function Clickbutton() {
 }
 
 function Clickfooter(){
+    let img1=document.getElementsByClassName("img1")[0];
+    let img2=document.getElementsByClassName("img2")[0];
+    img1.style.display='none';
+    img2.style.display="none";
 
+    let main=document.getElementById('main');
+    main.style.display="none";
+
+    let header=document.getElementById('header');
+    header.textContent="HEARD YOU LIKE CATS";
+    header.style.fontSize = "4.0em";
+    header.style.margin = "50px";
+    header.style.color= "#C0C0C0";
+
+    document.body.style.removeProperty('body');
 }
 
 function ClickContentbutton(){
