@@ -74,8 +74,8 @@ footer {
     position:absolute; 
     float: bottom,center;
     bottom:0;
-    left:45%;
-    right:45%;
+    left:40%;
+    right:40%;
 }
 p{
     text-align: center;
@@ -110,3 +110,10 @@ p{
     right:0;
     position:fixed;
 }
+/* .removeblack {
+    width: 100px; 
+    height: 100px; 
+    float:bottom;
+    background-color: #f8f8f8;
+    top: -100px;
+} */
