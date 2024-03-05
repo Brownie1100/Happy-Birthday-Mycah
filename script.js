@@ -2,15 +2,15 @@ let c=0;
 var elementc = document.getElementById('content-section');
 elementc.style.display='none';
 
-function Clickbutton() {
-    event.preventDefault();
-    var element=document.getElementById("welcome-section");
-    var element2 = document.getElementById('content-section');
-    if(element2.style.display==="none"||element2.style.display===""){
-        element2.style.display='block';
-        element.style.display="none";
-    }
-}
+// function Clickbutton() {
+//     event.preventDefault();
+//     var element=document.getElementById("welcome-section");
+//     var element2 = document.getElementById('content-section');
+//     if(element2.style.display==="none"||element2.style.display===""){
+//         element2.style.display='block';
+//         element.style.display="none";
+//     }
+// }
 
 function Clickfooter(){
     let img1=document.getElementsByClassName("img1")[0];
@@ -30,15 +30,15 @@ function Clickfooter(){
     document.body.style.removeProperty('body');
 }
 
-function ClickContentbutton(){
-    event.preventDefault();
-    var element=document.getElementById("welcome-section");
-    var element2 = document.getElementById('content-section');
-    if(element.style.display==="none"||element.style.display===""){
-        element.style.display='block';
-        element2.style.display="none";
-    }
-}
+// function ClickContentbutton(){
+//     event.preventDefault();
+//     var element=document.getElementById("welcome-section");
+//     var element2 = document.getElementById('content-section');
+//     if(element.style.display==="none"||element.style.display===""){
+//         element.style.display='block';
+//         element2.style.display="none";
+//     }
+// }
 function ClickBack(){
     if(c<=0)
         return;
