@@ -1,6 +1,8 @@
 let c=0;
-var elementc = document.getElementById('content-section');
-elementc.style.display='none';
+var element1 = document.getElementById('content-section');
+var element2 = document.getElementById('content-section1');
+element1.style.display='none';
+element2.style.display='none';
 
 // function Clickbutton() {
 //     event.preventDefault();
@@ -45,33 +47,50 @@ function ClickBack(){
 
     var element=document.getElementById("welcome-section");
     var element1 = document.getElementById('content-section');
+    var element2= document.getElementById('content-section1');
     c--;
     switch(c){
         case 0:
             element.style.display="block";
             element1.style.display='none';
+            element2.style.display='none';
             break;
         case 1:
             element.style.display="none";
             element1.style.display='block';
+            element2.style.display='none';
+            break;
+        case 2:
+            element.style.display="none";
+            element1.style.display='none';
+            element2.style.display='block';
             break;
     }
 }
 function ClickNext(){
-    if(c>=1)
+    if(c>=2)
         return;
 
     var element=document.getElementById("welcome-section");
     var element1 = document.getElementById('content-section');
+    var element2= document.getElementById('content-section1');
+
     c++;
     switch(c){
         case 0:
                 element.style.display="block";
                 element1.style.display='none';
+                element2.style.display='none';
                 break;
         case 1:
             element.style.display="none";
             element1.style.display='block';
+            element2.style.display='none';
+            break;
+        case 2:
+            element.style.display="none";
+            element1.style.display='none';
+            element2.style.display='block';
             break;
     }
 }
