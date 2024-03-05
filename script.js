@@ -1,3 +1,4 @@
+let c=0;
 var elementc = document.getElementById('content-section');
 elementc.style.display='none';
 
@@ -36,5 +37,45 @@ function ClickContentbutton(){
     if(element.style.display==="none"||element.style.display===""){
         element.style.display='block';
         element2.style.display="none";
+    }
+}
+function ClickBack(){
+    if(c<=0)
+        return;
+
+    var element=document.getElementById("welcome-section");
+    var element1 = document.getElementById('content-section');
+    c--;
+    switch(c){
+        case 0:
+        {
+            element.style.display="block";
+            element1.style.display='none';
+        }
+        case 1:
+        {
+            element.style.display="none";
+            element1.style.display='block';
+        }
+    }
+}
+function ClickNext(){
+    if(c>=1)
+        return;
+
+    var element=document.getElementById("welcome-section");
+    var element1 = document.getElementById('content-section');
+    c++;
+    switch(c){
+        case 0:
+        {
+            element.style.display="block";
+            element1.style.display='none';
+        }
+        case 1:
+        {
+            element.style.display="none";
+            element1.style.display='block';
+        }
     }
 }

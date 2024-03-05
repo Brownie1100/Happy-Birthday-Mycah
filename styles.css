@@ -117,3 +117,7 @@ p{
     background-color: #f8f8f8;
     top: -100px;
 } */
+#back-next{
+    font-size: 60px;
+    position: relative;
+}
