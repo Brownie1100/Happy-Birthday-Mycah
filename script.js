@@ -48,15 +48,13 @@ function ClickBack(){
     c--;
     switch(c){
         case 0:
-        {
             element.style.display="block";
             element1.style.display='none';
-        }
+            break;
         case 1:
-        {
             element.style.display="none";
             element1.style.display='block';
-        }
+            break;
     }
 }
 function ClickNext(){
@@ -68,14 +66,12 @@ function ClickNext(){
     c++;
     switch(c){
         case 0:
-        {
-            element.style.display="block";
-            element1.style.display='none';
-        }
+                element.style.display="block";
+                element1.style.display='none';
+                break;
         case 1:
-        {
             element.style.display="none";
             element1.style.display='block';
-        }
+            break;
     }
 }
