@@ -1,8 +1,14 @@
 let c=0;
+let f=0;
 var element1 = document.getElementById('content-section');
 var element2 = document.getElementById('content-section1');
+var element3 = document.getElementById('cute-cat');
+var header2 = document.getElementById('header2');
+
 element1.style.display='none';
 element2.style.display='none';
+element3.style.display='none';
+header2.style.display='none';
 
 // function Clickbutton() {
 //     event.preventDefault();
@@ -15,21 +21,60 @@ element2.style.display='none';
 // }
 
 function Clickfooter(){
+    f++;
+
     let img1=document.getElementsByClassName("img1")[0];
     let img2=document.getElementsByClassName("img2")[0];
-    img1.style.display='none';
-    img2.style.display="none";
-
+    let back_next=document.getElementById("back-next");
     let main=document.getElementById('main');
-    main.style.display="none";
-
     let header=document.getElementById('header');
-    header.textContent="HEARD YOU LIKE CATS";
-    header.style.fontSize = "4.0em";
-    header.style.margin = "50px";
-    header.style.color= "#C0C0C0";
+    let footer=document.getElementById('footer');
+    var kute_kat = document.getElementById('cute-cat');
 
-    document.body.style.removeProperty('body');
+    // document.body.classList.add("bg-remove");
+
+    if(f%2==1)
+    {
+        // document.body.classList.add("bg-remove-and-new-screen");
+        // document.body.classList.add("new-screen");
+    
+        img1.style.display='none';
+        img2.style.display="none";
+        back_next.style.display="none";
+        main.style.display="none";
+        kute_kat.style.display="block";
+        // element4.style.display='block';
+
+        // header.textContent="HEARD YOU LIKE CATS";
+        // header.style.fontSize = "2.50vh";
+        // header.style.padding = "1.5vh";
+        // header.style.color= "#000000";
+        // header.style.display='none';
+        header.style.display='none';
+        header2.style.display='block';
+        footer.style.color="#ffffff";
+    }
+    else if(f%2==0)
+    {
+        document.body.classList.add("bg-put-screen");
+        // header.textContent="HAPPY BIRTHDAY MYCAH";
+        // header.style.fontSize = "2.50vh";
+        // header.style.padding = "1.5vh";
+
+        // element4.style.display='none';
+        // header2.style.position="absolute";
+
+        img1.style.display='block';
+        img2.style.display="block";
+        back_next.style.display="block";
+        main.style.display="block";
+        header.style.display='block';
+        footer.style.color="#ffffff";
+        kute_kat.style.display="none";
+        header2.style.display='none';
+    }
+ 
+
 }
 
 // function ClickContentbutton(){
@@ -78,10 +123,10 @@ function ClickNext(){
     c++;
     switch(c){
         case 0:
-                element.style.display="block";
-                element1.style.display='none';
-                element2.style.display='none';
-                break;
+            element.style.display="block";
+            element1.style.display='none';
+            element2.style.display='none';
+            break;
         case 1:
             element.style.display="none";
             element1.style.display='block';

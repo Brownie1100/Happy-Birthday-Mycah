@@ -17,10 +17,11 @@ body {
     background-color: #f8f8f8; /* Light Gray */
     color: #f9efef;
  /*   background-image: url('https://images.pexels.com/photos/1146706/pexels-photo-1146706.jpeg'); */
-    background-image: url('https://i.imgur.com/TcMZZFM.jpg');
+    background-image: url('https://imgur.com/6af051K.png');
     background-repeat: no-repeat;
     background-color:white;
 }  
+
 header {
     position: absolute,center;
     top:0;
@@ -29,12 +30,19 @@ header {
     padding: 1.5vh;
     font-size: 2.0vw;
 }
-
+.header2{
+    position: absolute,center;
+    top:0;
+    left: 200;
+    text-align:center;
+    padding: 1.5vh;
+    font-size: 2.0vw;
+}
 h1 {
-    margin: 50px;
+    margin: 5vh;
     /* font-size: 2.5vw; */
     font-weight: 600;
-    color: #C0C0C0;
+    color: #d5d5d5  ;
 }
 h2{
     text-align:center;
@@ -42,14 +50,14 @@ h2{
     /* font-weight: 700; */
 }
 main {
-    margin: 20px;
+    margin: 1.5vh;
     font-family: "Dancing Script", cursive;
 }
 
 .welcome-section, .content-section, .content-section1 {
     padding: 1.0vh;
     border-radius: 120px;
-    color: #C0C0C0;
+    color: #d5d5d5;
     box-shadow: 0 0 10px rgb(0, 0, 0);
     margin-bottom: 20vh;
     position:relative;
@@ -63,7 +71,7 @@ main {
     /* font-size:1.00em; */
 }
 h2 {
-    color: #C0C0C0; /* Medium Pink */
+    color: #d5d5d5; /* Medium Pink */
     font-family: "Dancing Script", cursive;
 }
 
@@ -110,7 +118,22 @@ footer {
     top: -100px;
 } */
 #back-next{
-    font-size: 5vh;
-    position: relative;
-    margin-bottom: 10vh;
+    font-size: 7vh;
+    position: fixed;
+    bottom:2%;
+    left: 40%;
+    right: 40%;
 }
+.cute-cat{
+   width: auto;
+   height:auto;
+   float: center;
+   margin-top: 5vh;
+   margin-left: 31vw;
+}
+/* .bg-put-screen{
+    background-image: url('https://i.imgur.com/TcMZZFM.jpg');
+    background-repeat: no-repeat;
+    background-color:white;
+    background-size: 100vw 100vh;
+} */
