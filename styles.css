@@ -54,7 +54,7 @@ main {
     font-family: "Dancing Script", cursive;
 }
 
-.welcome-section, .content-section, .content-section1 {
+.welcome-section, .content-section, .content-section1,.content-section2,.content-section3 {
     padding: 1.0vh;
     border-radius: 120px;
     color: #d5d5d5;

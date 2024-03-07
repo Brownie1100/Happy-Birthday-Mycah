@@ -3,11 +3,15 @@ let f=0;
 var element1 = document.getElementById('content-section');
 var element2 = document.getElementById('content-section1');
 var element3 = document.getElementById('cute-cat');
+var element4=document.getElementById('content-section2');
+var element5=document.getElementById('content-section3');
 var header2 = document.getElementById('header2');
 
 element1.style.display='none';
 element2.style.display='none';
 element3.style.display='none';
+element4.style.display='none';
+element5.style.display='none';
 header2.style.display='none';
 
 // function Clickbutton() {
@@ -93,32 +97,56 @@ function ClickBack(){
     var element=document.getElementById("welcome-section");
     var element1 = document.getElementById('content-section');
     var element2= document.getElementById('content-section1');
+    var element3= document.getElementById('content-section2');
+    var element4= document.getElementById('content-section3');
     c--;
     switch(c){
         case 0:
             element.style.display="block";
             element1.style.display='none';
             element2.style.display='none';
+            element3.style.display='none';
+            element4.style.display='none';
             break;
         case 1:
             element.style.display="none";
             element1.style.display='block';
             element2.style.display='none';
+            element3.style.display='none';
+            element4.style.display='none';
             break;
         case 2:
             element.style.display="none";
             element1.style.display='none';
             element2.style.display='block';
+            element3.style.display='none';
+            element4.style.display='none';
+            break;
+        case 3:
+            element.style.display="none";
+            element1.style.display='none';
+            element2.style.display='none';
+            element3.style.display='block';
+            element4.style.display='none';
+            break;
+        case 4:
+            element.style.display="none";
+            element1.style.display='none';
+            element2.style.display='none';
+            element3.style.display='none';
+            element4.style.display='block';
             break;
     }
 }
 function ClickNext(){
-    if(c>=2)
+    if(c>=4)
         return;
 
     var element=document.getElementById("welcome-section");
     var element1 = document.getElementById('content-section');
     var element2= document.getElementById('content-section1');
+    var element3= document.getElementById('content-section2');
+    var element4= document.getElementById('content-section3');
 
     c++;
     switch(c){
@@ -126,16 +154,36 @@ function ClickNext(){
             element.style.display="block";
             element1.style.display='none';
             element2.style.display='none';
+            element3.style.display='none';
+            element4.style.display='none';
             break;
         case 1:
             element.style.display="none";
             element1.style.display='block';
             element2.style.display='none';
+            element3.style.display='none';
+            element4.style.display='none';
             break;
         case 2:
             element.style.display="none";
             element1.style.display='none';
             element2.style.display='block';
+            element3.style.display='none';
+            element4.style.display='none';
+            break;
+        case 3:
+            element.style.display="none";
+            element1.style.display='none';
+            element2.style.display='none';
+            element3.style.display='block';
+            element4.style.display='none';
+            break;
+        case 4:
+            element.style.display="none";
+            element1.style.display='none';
+            element2.style.display='none';
+            element3.style.display='none';
+            element4.style.display='block';
             break;
     }
 }
